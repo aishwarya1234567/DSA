@@ -1,4 +1,4 @@
-//Introduction to Array
+//Sum of even numbers and odd numbers in an array 
 import java.util.*;
 import java.io.*;
 
@@ -14,10 +14,19 @@ class HelloWorld {
         {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Elements of the array are: ");
+        int even_sum=0, odd_sum=0;
         for(int num : arr)
         {
-            System.out.print(num + " ");
+            if(num % 2 == 0)
+            {
+                even_sum += num;
+            }
+            else
+            {
+                odd_sum += num;
+            }
         }
+        System.out.println("Sum of even numbers in the array is : " + even_sum);
+        System.out.println("Sum of odd numbers in the array is : " + odd_sum);
     }
 }

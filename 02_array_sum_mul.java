@@ -1,4 +1,4 @@
-//Introduction to Array
+//Sum and multiplication of all number in Arrays
 import java.util.*;
 import java.io.*;
 
@@ -14,10 +14,13 @@ class HelloWorld {
         {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Elements of the array are: ");
+        int sum=0,mul=1;
         for(int num : arr)
         {
-            System.out.print(num + " ");
+            sum += num;
+            mul *= num;
         }
+        System.out.println("Sum is : " + sum);
+        System.out.println("Multiplication is : " + mul);
     }
 }

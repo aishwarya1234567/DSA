@@ -1,4 +1,4 @@
-//Introduction to Array
+//Sum of all pairs in an array
 import java.util.*;
 import java.io.*;
 
@@ -14,10 +14,12 @@ class HelloWorld {
         {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Elements of the array are: ");
-        for(int num : arr)
+        for(int i=0; i<arr.length;i++)
         {
-            System.out.print(num + " ");
+           for(int j=i+1;j<arr.length;j++)
+           {
+                System.out.println("Sum of " + arr[i] + "and " + arr[j] + " is : " + (arr[i]+arr[j]));
+           }
         }
     }
 }
