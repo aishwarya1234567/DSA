@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/maximum-distance-two-occurrences-element-array/
+
 class Solution
 {
     int maxDistance(int num[], int n)

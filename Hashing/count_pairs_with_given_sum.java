@@ -1,3 +1,5 @@
+//https://www.desiqna.in/part-8
+
 class Solution {
     int getPairsCount(int[] arr, int n, int k) {
         // code here

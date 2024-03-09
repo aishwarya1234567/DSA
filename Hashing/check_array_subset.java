@@ -1,3 +1,6 @@
+//https://www.desiqna.in/check-if-the-given-array-is-subset-of-another-array-hashing-part-4
+//https://www.desiqna.in/part-5
+
 /* package whatever; // don't place package name! */
 
 import java.util.*;
