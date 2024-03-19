@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-class HelloWorld {
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Enter the size of the array: ");
         Scanner sc = new Scanner(System.in);
