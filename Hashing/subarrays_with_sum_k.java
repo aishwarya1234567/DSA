@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/
+
 class Solution
 {
     static int findSubArraySum(int arr[], int N, int k)

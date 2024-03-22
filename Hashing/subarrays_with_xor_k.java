@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/count-number-subarrays-given-xor/
+
 import java.util.HashMap;
 
 public class Solution {

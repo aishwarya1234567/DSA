@@ -1,3 +1,5 @@
+//https://leetcode.com/contest/biweekly-contest-103/problems/find-the-prefix-common-array-of-two-arrays/
+
 class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         HashMap<Integer, Integer> hm = new HashMap<>();
