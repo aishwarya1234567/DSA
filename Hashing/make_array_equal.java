@@ -1,7 +1,5 @@
 //https://www.desiqna.in/part-6
 
-/* package whatever; // don't place package name! */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
